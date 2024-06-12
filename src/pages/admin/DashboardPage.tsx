@@ -1,8 +1,12 @@
+import { Box, Container, Typography } from "@mui/material";
+
 const DashboardPage = () => {
   return (
-    <div>
-      <h1>Dashboard Page</h1>
-    </div>
+    <Container maxWidth="sm">
+      <Box height={"100vh"} display="flex" justifyContent="center" alignItems="center" flexDirection={"column"}>
+        <Typography variant="h4" align="center" gutterBottom>Dashboard Page</Typography>
+      </Box>
+    </Container>
   );
 };
 

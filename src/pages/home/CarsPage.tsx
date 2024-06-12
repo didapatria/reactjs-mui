@@ -1,8 +1,11 @@
+import { Typography } from "@mui/material";
+import NavbarLayout from "../../layouts/home/NavbarLayout";
+
 const CarsPage = () => {
   return (
-    <div>
-      <h1>Cars Page</h1>
-    </div>
+    <NavbarLayout pageTitle="Cars Page">
+      <Typography variant="h4" align="center" gutterBottom>Content for Cars Page</Typography>
+    </NavbarLayout>
   );
 };
 
